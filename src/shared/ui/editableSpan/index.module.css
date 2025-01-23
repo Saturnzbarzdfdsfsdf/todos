@@ -1,0 +1,21 @@
+.completed {
+	text-decoration: line-through;
+	color: #bbb;
+  opacity: .7;
+}
+
+ .editableInput {
+	outline: none;
+	font-size: 22px;
+	color: white;
+	background: transparent;
+	border-bottom: 1px solid;
+	transition: all 0.3s ease-in-out;
+	width: 0; 
+	opacity: 0;
+}
+
+.editableInput:focus {
+	width: 200px; 
+	opacity: 1;
+} 
